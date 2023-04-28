@@ -1,5 +1,4 @@
 # ETL-pipeline-to-extract-data-from-Spotify-and-load-it-to-PostgreSQL-DB
-Build an ETL pipeline to extract data from Spotify and load it to PostgreSQL DB using airflow.
 
 This project consist of building an ETL pipeline that uses Spotify APIs to move data from the platform to a PostgreSQL Database.
 
@@ -27,12 +26,12 @@ Here is the schema I followed to build the pipeline:
 
 4) Scripts:
 
-*Extract.py: Extracts the Data from Spotify using a specific Token. 
+Extract.py: Extracts the Data from Spotify using a specific Token. 
 
-*Transform.py: make transformations on the extracted data.
+Transform.py: make transformations on the extracted data.
 
-*Load.py: Using sqlalchemy and SQLite to load our data into a database.
+Load.py: Using sqlalchemy and SQLite to load our data into a database.
 
-*Spotify_etl.py: write a logic to extract data from API → Do Quality Checks →Transform Data.
+Spotify_etl.py: write a logic to extract data from API → Do Quality Checks →Transform Data.
 					 
 *spotify_final_dag.py: Airflow DAG to orchestrat the process.
