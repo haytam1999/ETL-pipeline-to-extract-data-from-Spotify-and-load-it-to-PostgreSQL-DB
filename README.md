@@ -1,6 +1,6 @@
 # ETL-pipeline-to-extract-data-from-Spotify-and-load-it-to-PostgreSQL-DB
 
-This project consist of building an ETL pipeline that uses Spotify APIs to move data from the platform to a PostgreSQL Database.
+This project consists of building an ETL pipeline that uses Spotify APIs to move data from the platform to a PostgreSQL Database.
 
 1) Tools used: 
 
